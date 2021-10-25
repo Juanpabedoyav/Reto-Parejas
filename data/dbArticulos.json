@@ -1,0 +1,29 @@
+{
+    "articulos": [{
+            "nombre": "Dc Shoes",
+            "Descripcion": "",
+            "categoria": "zapatos",
+            "talla": [
+                "36",
+                "37",
+                "38"
+            ],
+            "imagen": ""
+
+        },
+        {
+            "nombre": "Dc Shoes",
+            "Descripcion": "",
+            "categoria": "zapatos",
+            "talla": [
+                "36",
+                "37",
+                "38"
+            ],
+            "imagen": ""
+
+        }
+
+
+    ]
+}
