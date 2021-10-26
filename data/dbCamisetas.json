@@ -1,0 +1,71 @@
+{
+"camisetas": [
+        {
+            "nombre": "Camisa Manga Larga Now Fisch",
+            "Descripcion": "Camisa Manga Larga Now Fisch Camisa de hombre manga larga en algodón en silueta slim",
+            "categoria": "camisas",
+            "talla": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "imagen": "https://kenzojeans.com.co/wp-content/uploads/2020/12/camisa-blanco-fisch-1.jpg"
+
+        },
+        {
+            "nombre": "Camisa Algodon Slim Fit",
+            "Descripcion": "camisa slim fit bogota medellin colombia cali la chaqueteria",
+            "categoria": "camisas",
+            "talla": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/008/632/products/marzo-20-11-0077e52528933ce69f14882887737218-640-0.jpg"
+
+        },
+        {
+            "nombre": "Camisa para mujer",
+            "Descripcion": "Camisetas manga corta para mujer",
+            "categoria": "camisas",
+            "talla": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "imagen": "https://cdn.koaj.co/34124-home_default/camiseta-motivo-flores.jpg"
+
+        },
+        {
+            "nombre": "Ramera para mujer",
+            "Descripcion": "Camisetas femeninas, Remeras estampadas",
+            "categoria": "camisas",
+            "talla": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "imagen": "https://i.pinimg.com/originals/20/d3/d6/20d3d60a0c1898ec2c14904e2ba17d1c.png"
+
+        },
+        {
+            "nombre": "Camisas Sport ",
+            "Descripcion": "Con la tecnología de Insect Shield registrado por la EPA",
+            "categoria": "camisas",
+            "talla": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ],
+            "imagen": "https://cdn.shopify.com/s/files/1/0339/7965/products/CAMISA.jpg?v=1540888672"
+
+        }
+       
+      
+    ]
+}

@@ -1,29 +1,22 @@
 
 let btnCamisetas = document.getElementById('btnCamisetas');
 let btnJeans = document.getElementById('btnJeans');
-let url = 'http://localhost:4000/articulos'
+let btnZapatos = document.getElementById('btnZapatos');
+//let url = 'http://localhost:4000/camisetas'
 
 btnCamisetas.addEventListener('click', () =>{
-    //if articulos.categoria=btnCamisetas.value{
-
-    //}
-    //http://localhost:4000/articulos
-    obtenerArticulos('http://localhost:4000/articulos');
+    obtenerArticulos('http://localhost:4000/camisetas');
 });
-
-
 
 btnJeans.addEventListener('click', () =>{
-    obtenerArticulos('http://localhost:4000/articulos');
-    obtenerArticulos('');
-
+    obtenerArticulos('http://localhost:4001/jeans');
+    
 });
 
+btnZapatos.addEventListener('click', () =>{
+    obtenerArticulos('http://localhost:4002/zapatos');
 
-/*btnarticulos.addEventListener('click' ,() =>{
-    
-    obtenerArticulos('')
-    });*/
+});
 
     const obtenerArticulos = async(url) => {
         //querySelector() selecciona por varios metodos no solo por id.
@@ -50,4 +43,4 @@ btnJeans.addEventListener('click', () =>{
         
     }
 
-    obtenerArticulos('http://localhost:4000/articulos');
+    
