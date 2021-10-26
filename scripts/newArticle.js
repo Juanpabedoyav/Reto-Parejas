@@ -1,4 +1,4 @@
-const URL = 'http://localhost:4001/articulos';
+const URL = 'http://localhost:4000/articulos';
 const form = document.getElementById('form');
 
 let nombre = document.getElementById('nombre');
@@ -11,6 +11,6 @@ e.preventDefault();
 let nombre = document.getElementById('nombre').value;
 let descripcion= document.getElementById('descripcion').value;
 let categoria = document.getElementById('categoria').value;
-// console.log(nombre, descripcion, categoria);
+console.log(nombre, descripcion, categoria);
 
 })
