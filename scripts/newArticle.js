@@ -11,17 +11,21 @@ e.preventDefault();
 let nombre = document.getElementById('nombre').value;
 let Descripcion= document.getElementById('descripcion').value;
 let categoria = document.getElementById('categoria').value;
- 
+let nuevo =  document.getElementById('new');
 await fetch(URL, {
     method: 'POST',
     body: JSON.stringify(
         {
         nombre,
         Descripcion, 
-        categoria,  
+        categoria,   
         }
     ),
     headers: {"Content-Type": "application/json; charset=UTF-8"}
 });
+nuevo.innerHTML="";
+nuevo.innerHTML += `<p>Se crea con exito <span>${nombre}</span></p>`
+
+
 
 })

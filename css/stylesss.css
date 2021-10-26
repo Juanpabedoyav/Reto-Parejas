@@ -2,48 +2,128 @@
     padding: 0;
     margin:0;
 }
+:root{
+    --fondo:#fff2f4    ;
+    --form-color:#2e1a1ef5  ;
+    --btn-color:#b75d72;
+    --label-color:#ffdce3;
+}
+body{
+    background-color: var(--fondo) ;
+        /* height: 100%; */
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:600px 1fr ;
+    justify-content:space-between;
+    align-items: flex-start;
+    /* overflow: hidden; */
+    /* border: 1px solid red; */
+
+
+}
+.content{
+    width: 700px;
+}
+.product{
+    width:400px ;
+    height: 200px;
+    margin: 0px auto;
+    margin-top: 60px;
+    border: 1px solid red;
+}
+/* estilos formulario */
 .formulario{
-    width: 50%;
+    background-color:var(--form-color)    ;
+    width: 60%;
     height: 550px;
     display: flex;
     flex-direction: column;
-    margin: 50px 0px 20px 50px;
+    margin: 50px 0px 20px 100px;
     padding: 20px;
+    border-radius: 12px;
+    /* flex-wrap: nowrap; */
 
-    border: 1px solid red;
+
+    /* border: 1px solid red; */
 }
+/* bloques inputs */
 .grupo{
     width: 100%;
     overflow: hidden;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
+/* titulos inputs */
 .grupo label{
     display: block;
+    color:var(--label-color);
+    font-weight: bold;
     font-size: 1.4rem;
-    margin: 0px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
 }
 .grupo input{
     width: 90%;
-    height: 35px;
+    height: 30px;
     outline: none;
+    padding: 2px 0px 2px 10px;
+    border-radius: 4px;
+    background-color: var(--fondo);
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+
 }
-#categoria{
+/* estilo seleccion de categoria  */
+#categoria, option{
     width: 90%;
-    height: 35px;
+    height: 30px;
     outline: none;
+    padding: 2px 0px 2px 10px;
+    border-radius: 4px;
+    background-color: var(--fondo);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+
 
 }
-#descripcion{
-    overflow: hidden;
+/* descricion de producto */
+.mensaje{
+  
+resize: none;
+overflow: hidden;
+}
+
+
+#descripcion {
+    width: 92%;
+    height: 50px;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 4px 0px 0px 10px;
+    overflow-y: scroll;
+    resize: none;
+
+
 
 }
-#registrar{
+
+.btn{
     width: 70%;
     height: 40px;
     border-radius: 30px;
-    margin: 20px auto;
+    margin: 8px auto;
     border:none;
     font-weight: bold;
     font-size: 1.2rem;
+    padding: 5px;
+    background-color: #b75d72 ;
+    color: var(--label-color);
+    cursor:pointer;
 }
+
