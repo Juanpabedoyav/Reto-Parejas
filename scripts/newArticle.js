@@ -1,16 +1,27 @@
-const URL = 'http://localhost:4000/articulos';
+const URL = 'http://localhost:4004/producto';
 const form = document.getElementById('form');
 
 let nombre = document.getElementById('nombre');
-let descripcion= document.getElementById('descripcion');
+let Descripcion= document.getElementById('descripcion');
 let categoria = document.getElementById('categoria');
 const registrar = document.getElementById('registrar');
 
-form.addEventListener('submit', (e)=>{
+form.addEventListener('submit', async(e)=>{
 e.preventDefault();
 let nombre = document.getElementById('nombre').value;
-let descripcion= document.getElementById('descripcion').value;
+let Descripcion= document.getElementById('descripcion').value;
 let categoria = document.getElementById('categoria').value;
-console.log(nombre, descripcion, categoria);
+ 
+await fetch(URL, {
+    method: 'POST',
+    body: JSON.stringify(
+        {
+        nombre,
+        Descripcion, 
+        categoria,  
+        }
+    ),
+    headers: {"Content-Type": "application/json; charset=UTF-8"}
+});
 
 })

@@ -3,19 +3,28 @@ let btnCamisetas = document.getElementById('btnCamisetas');
 let btnJeans = document.getElementById('btnJeans');
 let url = 'http://localhost:4000/articulos'
 
-btnCamisetas.addEventListener('click', () =>{
+btnCamisetas.addEventListener('click', async() =>{
     //if articulos.categoria=btnCamisetas.value{
+// http://localhost:4000/articulos
+const resp = await fetch(url);
+const data  = await resp.json();
+let mostrarArticulos = document.querySelector('.grid-articulos');
 
-    //}
-    //http://localhost:4000/articulos
-    obtenerArticulos('http://localhost:4000/articulos');
-});
+
+}) ;
+   
+  
+
+
+
+
+
 
 
 
 btnJeans.addEventListener('click', () =>{
     obtenerArticulos('http://localhost:4000/articulos');
-    obtenerArticulos('');
+    // obtenerArticulos('');
 
 });
 
@@ -31,6 +40,7 @@ btnJeans.addEventListener('click', () =>{
         mostrarArticulos.innerHTML ='';
         const resp = await fetch(url);
         const data = await resp.json();
+
         data.forEach(articulos => {
             const {nombre, Descripcion, categoria, talla, imagen} = articulos;
             mostrarArticulos.innerHTML +=
