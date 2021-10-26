@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stylesss.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="form" class="formulario">
+        <div class="grupo">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text">
+        </div>
+        <div class="grupo">
+            <label for="descripcion">Descripción</label>
+            <textarea id="descripcion" type="text" placeholder="Ingresa la descripción"></textarea>
+        </div>
+        <div class="grupo">
+            <label for="categoria">Categoria</label>
+            <select id="categoria">
+                <option value="">Seleciona una opción</option>
+                <option value="zapatos">Zapatos</option>
+                <option value="camisas">Camisas</option>
+                <option value="jeans">Jeans</option>
+            </select>
+        </div>
+        <!-- <label for="">talla</label>
+        <input type="text"> -->
+        <!-- <label for="">Imagen</label>
+        <input type="text"> -->
+        <button id="registrar" type="submit">Registrar Producto</button>
+
+    </form>
+
+    <script src="scripts/newArticle.js"></script>
+</body>
+
+</html>

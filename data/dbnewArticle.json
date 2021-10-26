@@ -1,0 +1,70 @@
+{
+  "producto": [
+    {
+      "nombre": "",
+      "descripcion": "",
+      "categoria": "",
+      "talla": "",
+      "imagen": "",
+      "id": 1
+    },
+    {
+      "nombre": "",
+      "descripcion": "",
+      "categoria": "",
+      "talla": "",
+      "imagen": "",
+      "id": 2
+    },
+    {
+      "nombre": "",
+      "Descripcion": "",
+      "categoria": "",
+      "talla": "",
+      "imagen": "",
+      "id": 3
+    },
+    {
+      "nombre": "",
+      "Descripcion": "",
+      "categoria": "",
+      "id": 4
+    },
+    {
+      "nombre": "",
+      "Descripcion": "",
+      "categoria": "",
+      "id": 5
+    },
+    {
+      "nombre": "Juan",
+      "Descripcion": "safdsfasfaw",
+      "categoria": "",
+      "id": 6
+    },
+    {
+      "nombre": "Juan",
+      "Descripcion": "jsafasjfasjdfidasioafjasdiofasdjfposadfasjfioasfjas",
+      "categoria": "zapatos",
+      "id": 7
+    },
+    {
+      "nombre": "",
+      "Descripcion": "",
+      "categoria": "",
+      "id": 8
+    },
+    {
+      "nombre": "",
+      "Descripcion": "",
+      "categoria": "",
+      "id": 9
+    },
+    {
+      "nombre": "",
+      "Descripcion": "",
+      "categoria": "",
+      "id": 10
+    }
+  ]
+}

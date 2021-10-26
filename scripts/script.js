@@ -24,6 +24,7 @@ btnZapatos.addEventListener('click', () =>{
         mostrarArticulos.innerHTML ='';
         const resp = await fetch(url);
         const data = await resp.json();
+
         data.forEach(articulos => {
             const {nombre, Descripcion, categoria, talla, imagen} = articulos;
             mostrarArticulos.innerHTML +=

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.formulario{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 20px 50px;
+    padding: 20px;
+
+    border: 1px solid red;
+}
+.grupo{
+    width: 100%;
+    overflow: hidden;
+
+    border: 1px solid green;
+}
+.grupo label{
+    display: block;
+    font-size: 1.4rem;
+    margin: 0px 0px 10px 0px;
+}
+.grupo input{
+    width: 90%;
+    height: 35px;
+    outline: none;
+}
+#categoria{
+    width: 90%;
+    height: 35px;
+    outline: none;
+
+}
+#descripcion{
+    overflow: hidden;
+
+}
+#registrar{
+    width: 70%;
+    height: 40px;
+    border-radius: 30px;
+    margin: 20px auto;
+    border:none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
