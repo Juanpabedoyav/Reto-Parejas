@@ -1,38 +1,22 @@
 
 let btnCamisetas = document.getElementById('btnCamisetas');
 let btnJeans = document.getElementById('btnJeans');
-let url = 'http://localhost:4000/articulos'
+let btnZapatos = document.getElementById('btnZapatos');
+//let url = 'http://localhost:4000/camisetas'
 
-btnCamisetas.addEventListener('click', async() =>{
-    //if articulos.categoria=btnCamisetas.value{
-// http://localhost:4000/articulos
-const resp = await fetch(url);
-const data  = await resp.json();
-let mostrarArticulos = document.querySelector('.grid-articulos');
-
-
-}) ;
-   
-  
-
-
-
-
-
-
-
-
-btnJeans.addEventListener('click', () =>{
-    obtenerArticulos('http://localhost:4000/articulos');
-    // obtenerArticulos('');
-
+btnCamisetas.addEventListener('click', () =>{
+    obtenerArticulos('http://localhost:4000/camisetas');
 });
 
-
-/*btnarticulos.addEventListener('click' ,() =>{
+btnJeans.addEventListener('click', () =>{
+    obtenerArticulos('http://localhost:4001/jeans');
     
-    obtenerArticulos('')
-    });*/
+});
+
+btnZapatos.addEventListener('click', () =>{
+    obtenerArticulos('http://localhost:4002/zapatos');
+
+});
 
     const obtenerArticulos = async(url) => {
         //querySelector() selecciona por varios metodos no solo por id.
@@ -60,4 +44,4 @@ btnJeans.addEventListener('click', () =>{
         
     }
 
-    obtenerArticulos('http://localhost:4000/articulos');
+    

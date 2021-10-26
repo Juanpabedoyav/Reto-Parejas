@@ -1,5 +1,6 @@
 {
-    "articulos": [{
+    "zapatos": [
+        {
             "nombre": "Dc Shoes",
             "Descripcion": "",
             "categoria": "zapatos",
@@ -93,115 +94,8 @@
                 "38"
             ],
             "imagen": "data:image/jpeg;base64,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"
-        },
-        {
-            "nombre": "Camisa Manga Larga Now Fisch",
-            "Descripcion": "Camisa Manga Larga Now Fisch Camisa de hombre manga larga en algodón en silueta slim",
-            "categoria": "camisas",
-            "talla": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ],
-            "imagen": "https://kenzojeans.com.co/wp-content/uploads/2020/12/camisa-blanco-fisch-1.jpg"
-
-        },
-        {
-            "nombre": "Camisa Algodon Slim Fit",
-            "Descripcion": "camisa slim fit bogota medellin colombia cali la chaqueteria",
-            "categoria": "camisas",
-            "talla": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ],
-            "imagen": "http://d3ugyf2ht6aenh.cloudfront.net/stores/008/632/products/marzo-20-11-0077e52528933ce69f14882887737218-640-0.jpg"
-
-        },
-        {
-            "nombre": "Camisa para mujer",
-            "Descripcion": "Camisetas manga corta para mujer",
-            "categoria": "camisas",
-            "talla": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ],
-            "imagen": "https://cdn.koaj.co/34124-home_default/camiseta-motivo-flores.jpg"
-
-        },
-        {
-            "nombre": "Ramera para mujer",
-            "Descripcion": "Camisetas femeninas, Remeras estampadas",
-            "categoria": "camisas",
-            "talla": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ],
-            "imagen": "https://i.pinimg.com/originals/20/d3/d6/20d3d60a0c1898ec2c14904e2ba17d1c.png"
-
-        },
-        {
-            "nombre": "Camisas Sport ",
-            "Descripcion": "Con la tecnología de Insect Shield registrado por la EPA",
-            "categoria": "camisas",
-            "talla": [
-                "S",
-                "M",
-                "L",
-                "XL"
-            ],
-            "imagen": "https://cdn.shopify.com/s/files/1/0339/7965/products/CAMISA.jpg?v=1540888672"
-
-        },
-       
-        {
-            "nombre": "Jean Fit Should",
-            "Descripcion": "Jean Fit Should tiro medio largo normal, pretina con cierre en botón y cremallera",
-            "categoria": "jeans",
-            "talla": [
-                "29",
-                "30",
-                "31",
-                "32"
-            ],
-            "imagen": "https://kenzojeans.com.co/wp-content/uploads/2020/09/Wear-denim-should-7.jpg"
-
-        },
-        {
-            "nombre": "Jean Skinny Lyra",
-            "Descripcion": "jean Skinny Fit tono claro con bolsillos funcionales. Diseño de talle alto bota tubo., 70% algodón, 21% poliéster, 5% rayón , 4% elastómero",
-            "categoria": "jeans",
-            "talla": [
-                "29",
-                "30",
-                "31",
-                "32"
-            ],
-            "imagen": "https://cdn.shopify.com/s/files/1/0590/7241/3879/products/Jean_lyra_delantero_1024x.jpg?v=1628108122"
-
-        },
-        {
-            "nombre": "Pantalón Vaquero Hombre ",
-            "Descripcion": "Pantalón vaquero de corte regular con elastano",
-            "categoria": "jeans",
-            "talla": [
-                "29",
-                "30",
-                "31",
-                "32"
-            ],
-            "imagen": "https://marchuet.com/1495-large_default/pantal%C3%B3n-vaquero-de-hombre-con-elastano-tk-regular-fit.jpg"
-
         }
 
-
-
-
     ]
+
 }

@@ -1,0 +1,81 @@
+{
+"jeans": [
+    {
+        "nombre": "Jean Fit Should",
+        "Descripcion": "Jean Fit Should tiro medio largo normal, pretina con cierre en botón y cremallera",
+        "categoria": "jeans",
+        "talla": [
+            "29",
+            "30",
+            "31",
+            "32"
+        ],
+        "imagen": "https://kenzojeans.com.co/wp-content/uploads/2020/09/Wear-denim-should-7.jpg"
+    },
+    {
+        "nombre": "Jean Skinny Lyra",
+        "Descripcion": "jean Skinny Fit tono claro con bolsillos funcionales. Diseño de talle alto bota tubo., 70% algodón, 21% poliéster, 5% rayón , 4% elastómero",
+        "categoria": "jeans",
+        "talla": [
+            "29",
+            "30",
+            "31",
+            "32"
+        ],
+        "imagen": "https://cdn.shopify.com/s/files/1/0590/7241/3879/products/Jean_lyra_delantero_1024x.jpg?v=1628108122"
+    },
+    {
+        "nombre": "Pantalón Vaquero Hombre ",
+        "Descripcion": "Pantalón vaquero de corte regular con elastano",
+        "categoria": "jeans",
+        "talla": [
+            "29",
+            "30",
+            "31",
+            "32"
+        ],
+        "imagen": "https://marchuet.com/1495-large_default/pantal%C3%B3n-vaquero-de-hombre-con-elastano-tk-regular-fit.jpg"
+
+
+    },
+    {
+        "nombre": "Jean Fit Should",
+        "Descripcion": "Jean Fit Should tiro medio largo normal, pretina con cierre en botón y cremallera",
+        "categoria": "jeans",
+        "talla": [
+            "29",
+            "30",
+            "31",
+            "32"
+        ],
+        "imagen": "https://kenzojeans.com.co/wp-content/uploads/2020/09/Wear-denim-should-7.jpg"
+
+    },
+    {
+        "nombre": "Jean Skinny Lyra",
+        "Descripcion": "jean Skinny Fit tono claro con bolsillos funcionales. Diseño de talle alto bota tubo., 70% algodón, 21% poliéster, 5% rayón , 4% elastómero",
+        "categoria": "jeans",
+        "talla": [
+            "29",
+            "30",
+            "31",
+            "32"
+        ],
+        "imagen": "https://cdn.shopify.com/s/files/1/0590/7241/3879/products/Jean_lyra_delantero_1024x.jpg?v=1628108122"
+
+    },
+    {
+        "nombre": "Pantalón Vaquero Hombre ",
+        "Descripcion": "Pantalón vaquero de corte regular con elastano",
+        "categoria": "jeans",
+        "talla": [
+            "29",
+            "30",
+            "31",
+            "32"
+        ],
+        "imagen": "https://marchuet.com/1495-large_default/pantal%C3%B3n-vaquero-de-hombre-con-elastano-tk-regular-fit.jpg"
+
+    }
+  ]
+}
